@@ -30,8 +30,9 @@
     "cordis.patch.yml",
     "screenshots.json",
     "README.md",
-    "README.zh-CN.md",
-    "LICENSE"
+    "README.en.md",
+    "LICENSE",
+    "NOTICE.md"
   ],
   "scripts": {
     "embed-prompt": "node scripts/embed-default-prompt.mjs",
