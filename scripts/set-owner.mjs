@@ -1,5 +1,5 @@
 /**
- * 把仓库里的 __OWNER__ 占位统一替换成真实 GitHub 账号。
+ * 把仓库里的 canyexiren 占位统一替换成真实 GitHub 账号。
  * 用法：node scripts/set-owner.mjs <github-owner>
  * 例：  node scripts/set-owner.mjs canyexiren
  */
@@ -24,8 +24,8 @@ function walk(dir) {
     if (e.isDirectory()) { walk(p); continue; }
     if (!/\.(md|json|yml|mjs|js|sh|html|txt)$/.test(e.name)) continue;
     const s = fs.readFileSync(p, "utf8");
-    if (!s.includes("__OWNER__")) continue;
-    fs.writeFileSync(p, s.split("__OWNER__").join(owner), "utf8");
+    if (!s.includes("canyexiren")) continue;
+    fs.writeFileSync(p, s.split("canyexiren").join(owner), "utf8");
     touched++;
     console.log("patched " + path.relative(root, p));
   }

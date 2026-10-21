@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/__OWNER__/dsh-purge/stargazers"><img src="https://img.shields.io/github/stars/__OWNER__/dsh-purge?label=Stars" alt="Stars"></a>
+  <a href="https://github.com/canyexiren/dsh-purge/stargazers"><img src="https://img.shields.io/github/stars/canyexiren/dsh-purge?label=Stars" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-65a30d" alt="MIT"></a>
   <img src="https://img.shields.io/badge/dsh-0.2.0--rc.2-blue" alt="dsh 0.2">
   <img src="https://img.shields.io/badge/Node.js-%3E%3D18-339933" alt="Node.js">
@@ -61,10 +61,10 @@
 
 ```sh
 # 官方 Web
-dsh plugin --profile web add https://github.com/__OWNER__/dsh-purge/archive/refs/heads/main.tar.gz
+dsh plugin --profile web add https://github.com/canyexiren/dsh-purge/archive/refs/heads/main.tar.gz
 
 # 官方桌面 EXE
-dsh plugin --profile desktop add https://github.com/__OWNER__/dsh-purge/archive/refs/heads/main.tar.gz
+dsh plugin --profile desktop add https://github.com/canyexiren/dsh-purge/archive/refs/heads/main.tar.gz
 
 # 已经是本地 clone
 dsh plugin --profile web add .
@@ -117,7 +117,7 @@ docs/          banner、预览图、原作者完整 README（docs/original/）
 **借用本项目的名称、思路、代码或提示词，必须署名作者并注明来源仓库。**
 
 - 作者：**昔人**
-- 本仓库：`https://github.com/__OWNER__/dsh-purge`
+- 本仓库：`https://github.com/canyexiren/dsh-purge`
 
 不署名、隐去来源、改头换面当作原创，会被追究。二次开发请保留 `LICENSE` 的版权行与本文件说明。
 

@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/__OWNER__/dsh-purge/stargazers"><img src="https://img.shields.io/github/stars/__OWNER__/dsh-purge?label=Stars" alt="Stars"></a>
+  <a href="https://github.com/canyexiren/dsh-purge/stargazers"><img src="https://img.shields.io/github/stars/canyexiren/dsh-purge?label=Stars" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-65a30d" alt="MIT"></a>
   <img src="https://img.shields.io/badge/dsh-0.2.0--rc.2-blue" alt="dsh 0.2">
   <img src="https://img.shields.io/badge/Node.js-%3E%3D18-339933" alt="Node.js">
@@ -57,10 +57,10 @@ Installing the plugin into a profile does **not** patch the host. Apply on the C
 
 ```sh
 # official web
-dsh plugin --profile web add https://github.com/__OWNER__/dsh-purge/archive/refs/heads/main.tar.gz
+dsh plugin --profile web add https://github.com/canyexiren/dsh-purge/archive/refs/heads/main.tar.gz
 
 # official desktop EXE
-dsh plugin --profile desktop add https://github.com/__OWNER__/dsh-purge/archive/refs/heads/main.tar.gz
+dsh plugin --profile desktop add https://github.com/canyexiren/dsh-purge/archive/refs/heads/main.tar.gz
 ```
 
 Then: (1) fully quit and reopen that host, (2) click **dsh-purge** → **Clean** → **Apply**,
@@ -88,7 +88,7 @@ Then: (1) fully quit and reopen that host, (2) click **dsh-purge** → **Clean**
 source repository.**
 
 - Author: **昔人**
-- This repository: `https://github.com/__OWNER__/dsh-purge`
+- This repository: `https://github.com/canyexiren/dsh-purge`
 
 Removing attribution, hiding the source, or passing it off as your own will be pursued.
 Keep the `LICENSE` copyright line and [NOTICE.md](NOTICE.md) when you fork.
