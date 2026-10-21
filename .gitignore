@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
+.dsh-purge-rule.bak
+*.dsh-purge-rule.bak
