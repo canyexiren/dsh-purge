@@ -6,3 +6,4 @@ node_modules/
 Thumbs.db
 .dsh-purge-rule.bak
 *.dsh-purge-rule.bak
+*.tgz
