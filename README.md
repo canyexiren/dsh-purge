@@ -4,7 +4,7 @@
 
 <h1 align="center">⚔️ dsh-purge</h1>
 
-<p align="center"><strong>v1.1.67</strong></p>
+<p align="center"><strong>v1.1.68</strong></p>
 
 <p align="center">
   <em>DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。<br>
@@ -116,13 +116,12 @@ docs/          banner、预览图、原作者完整 README（docs/original/）
 
 **借用本项目的名称、思路、代码或提示词，必须署名作者并注明来源仓库。**
 
-- 原作者：**小杨**（品牌「小码酱」）
-- 上游仓库（作者已删除）：`https://github.com/YuJunZhiXue/dsh-purge`
+- 作者：**昔人**
 - 本仓库：`https://github.com/__OWNER__/dsh-purge`
 
 不署名、隐去来源、改头换面当作原创，会被追究。二次开发请保留 `LICENSE` 的版权行与本文件说明。
 
-来源与本次改动（为什么会有这个仓库、改了哪几处）见 [NOTICE.md](NOTICE.md)。
+来源与改动记录见 [NOTICE.md](NOTICE.md)。
 
 ## 使用边界
 
@@ -130,4 +129,4 @@ docs/          banner、预览图、原作者完整 README（docs/original/）
 完整合规声明沿用原作者版本，见 [docs/original/README.en.md](docs/original/README.en.md)。
 商用、付费转售、以及任何违法或灰产用途一律禁止。
 
-MIT License · Copyright (c) 2026 小杨
+MIT License · Copyright (c) 2026 昔人

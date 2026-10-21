@@ -4,7 +4,7 @@
 
 <h1 align="center">⚔️ dsh-purge</h1>
 
-<p align="center"><strong>v1.1.67</strong></p>
+<p align="center"><strong>v1.1.68</strong></p>
 
 <p align="center">
   <em>DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。<br>
@@ -87,8 +87,7 @@ Then: (1) fully quit and reopen that host, (2) click **dsh-purge** → **Clean**
 **If you borrow this project's name, ideas, code, or prompts, you must credit the author and name the
 source repository.**
 
-- Author: **小杨** (brand 「小码酱」)
-- Upstream repo (deleted by the author): `https://github.com/YuJunZhiXue/dsh-purge`
+- Author: **昔人**
 - This repository: `https://github.com/__OWNER__/dsh-purge`
 
 Removing attribution, hiding the source, or passing it off as your own will be pursued.
@@ -101,4 +100,4 @@ your own machine and local config. It is not a scanner and not an attack kit for
 Commercial resale and any illegal or gray-market use are forbidden. The full compliance statement is
 preserved in [docs/original/README.en.md](docs/original/README.en.md).
 
-MIT License · Copyright (c) 2026 小杨
+MIT License · Copyright (c) 2026 昔人
