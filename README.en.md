@@ -4,7 +4,7 @@
 
 <h1 align="center">⚔️ dsh-purge</h1>
 
-<p align="center"><strong>v1.1.68</strong></p>
+<p align="center"><strong>v1.2.0</strong></p>
 
 <p align="center">
   <em>DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。<br>

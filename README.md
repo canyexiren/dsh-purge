@@ -4,7 +4,7 @@
 
 <h1 align="center">⚔️ dsh-purge</h1>
 
-<p align="center"><strong>v1.1.68</strong></p>
+<p align="center"><strong>v1.2.0</strong></p>
 
 <p align="center">
   <em>DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。<br>
@@ -50,8 +50,8 @@
 
 | 宿主 | profile | 版本 |
 |---|---|---|
-| 官方 `dsh web` | `web` | dsh 0.2（0.2.0-rc.2） |
-| 官方 Harness 桌面 EXE | `desktop` | 0.2.0-rc.2 |
+| 官方 `dsh web` | `web` | dsh 0.2（0.2.1-rc.2 / 0.2.0-rc.2） |
+| 官方 Harness 桌面 EXE | `desktop` | 0.2.1-rc.2 / 0.2.0-rc.2 |
 
 老版本 dsh（0.1.7 及更早）要配对应旧版插件。补丁不匹配时保持 pending / skipped，不会盲改。
 
@@ -82,6 +82,7 @@ Web 与 Desktop 的 Apply / Restart / Uninstall 互不影响，不要跨宿主 A
 
 - **改默认提示词**：Clean 页的提示词编辑器直接改；落盘在 `$DSH_HOME/prompt-inject.md`，与插件内密封的默认文本比对后判定"是否用户手改"。
 - **换模型就换一份**：编辑器里整体替换，或把不同模型的版本各存一份规则集，用时切。
+- **思考档**：提示词里「思考」一节把推理预算和结论分开——low 档只影响想得多细，不影响给不给成品。
 - **规则集**：写入 `AGENTS.md` / `CLAUDE.md` 目标，不参与 system 注入链（磁盘与 UI/注入保持一致）。
 - **插件内置默认提示词**：`lib/default-prompt-inject.md`，构建时由 `scripts/embed-default-prompt.mjs` 密封进 `lib/asset-table.js`（AES-256-GCM + deflate），运行时 `lib/table-read.js#openSlot()` 解封；宿主提示词文件不被读取，身份只来自插件自带那份。
 
